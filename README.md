@@ -5,6 +5,6 @@
 
 <a href="https://giovanaassis.github.io/mini-projetos/projeto-cordel/index.html">Projeto Cordel</a>
 
-<a href="https://giovanaassis.github.io/mini-projetos/projeto-gerador-de-senhas/index.html">Projeto Gerador de Senhas</a>
+<a href="https://giovanaassis.github.io/mini-projetos/projeto-gerador-de-senhas">Projeto Gerador de Senhas</a>
 
-<a href="https://giovanaassis.github.io/mini-projetos/projetos-redes-sociais/index.html">Projeto Redes Sociais</a>
+<a href="https://giovanaassis.github.io/mini-projetos/projeto-redes-sociais/index.html">Projeto Redes Sociais</a>

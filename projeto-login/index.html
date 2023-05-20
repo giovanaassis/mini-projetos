@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form action="login.js" method="post">
+                    <div class="campo">
+                        <span><img src="imagens/profile-icon.png" alt="Ícone perfil" class="icons"></span>
+                        <input type="email" name="email" id="email" autocomplete="email" placeholder="seu email" maxlength="30" required>
+                        <label for="email">Login</label>
+                    </div>
+                    <div class="campo">
+                        <span><img src="imagens/key-icon.png" alt="Ícone chave" class="icons"></span>
+                        <input type="password" name="senha" id="senha" autocomplete="current-password" placeholder="sua senha" min= "8" max="20" required>
+                        <label for="senha">Senha</label>
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a href="esqueci.html" class="btn">Esqueci a senha</a>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

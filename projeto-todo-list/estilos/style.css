@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('../fonts/NotoSerif-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Serif', serif;
+    outline: 0;
+}
+
+body {
+    background-color: rgb(204, 223, 204);
+    width: 100%;
+}
+
+section {
+    background-color: #EAD0AF;
+    border-radius: 7px;
+    width: 500px;
+    padding: 10px;
+    margin: 100px auto;
+    box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 27%);
+}
+
+input {
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 350px;
+    padding: 10px;
+}
+
+.btn-add-task {
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    margin-top: 3.5px;
+    font-size: 16px;
+    background-color: rgb(23, 110, 88);
+    color: white;
+    float: right;
+    cursor: pointer;
+}
+
+.btn-add-task:hover {
+    background-color: rgba(23, 110, 88, 0.733);
+}
+
+img {
+    width: 25px;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+}
+
+li {
+    background-color: rgb(247, 244, 244);
+    width: 100%;
+    list-style-type: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.116);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+li:hover img {
+    opacity: 1;
+}
+
+.done {
+    background-color: rgb(86, 153, 86);
+    text-decoration: line-through;
+}
+
+@media screen and (max-width: 768px) {
+
+    section {
+        width: 85vw;
+        padding-bottom: 50px;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .btn-add-task {
+        float: left;
+        margin: 7px 0px 7px 0px;
+    }
+}

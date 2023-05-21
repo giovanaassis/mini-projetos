@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+:root {
+    --cor01: black;
+    --cor02: white;
+
+    --fontepadrao: verdana, san-serif;
+    --fontetitulo: 'Passion One', cursive;
+    --fontepoema: 'Sriracha', cursive;
+}
+
+html, body {
+    background-color: lightgray;
+    min-height: 100vh;
+    font-family: var(--fontepadrao);
+    line-height: 13.3px;
+}
+
+header {
+    background-color: var(--cor01);
+    color: var(--cor02);
+    text-align: center;
+}
+
+header > h1 {
+    font: bold 10vw var(--fontetitulo);
+    font-variant: small-caps;
+    line-height: 113.8px;
+    padding-top: 50px;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+section {
+    background-color: var(--cor02);
+    font: 3.5vw var(--fontepoema);
+    line-height: 2em;
+
+    padding: 50px 0px 50px 30px;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+#flor {
+    background: url(imagens/fundo001.jpg) right center fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.479);
+}
+
+#carta {
+    background: url(imagens/fundo002.jpg) center center fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.479);
+}
+
+.quadrado {
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+    display: inline-block;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: var(--cor01);
+    color: var(--cor02);
+    text-align: center;
+    line-height: 1.3em;
+    padding: 15px;
+}
+

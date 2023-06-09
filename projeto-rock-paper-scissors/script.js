@@ -10,36 +10,30 @@ function chooseRock() {
     userOption.innerHTML = '✊'
     let i = 0
 
-    const charset = ['✊', '✋', '✌️']
-    var cpuMove = Math.floor(Math.random() * charset.length)
-    let cpuOption = document.getElementById('cpu-play')
-    cpuOption.innerHTML = `${charset[cpuMove]}`
-
-    showResult(i, cpuMove)
+    generateCpuMove(i)
 }
 
 function choosePaper() {
     userOption.innerHTML = '✋'
     let i = 1
 
-    const charset = ['✊', '✋', '✌️']
-    var cpuMove = Math.floor(Math.random() * charset.length)
-    let cpuOption = document.getElementById('cpu-play')
-    cpuOption.innerHTML = `${charset[cpuMove]}`
-
-    showResult(i, cpuMove)
+    generateCpuMove(i)
 }
 
 function chooseScissors() {
     userOption.innerHTML = '✌️'
     let i = 2
 
+    generateCpuMove(i)
+}
+
+function generateCpuMove(userChoice) {
     const charset = ['✊', '✋', '✌️']
     var cpuMove = Math.floor(Math.random() * charset.length)
     let cpuOption = document.getElementById('cpu-play')
     cpuOption.innerHTML = `${charset[cpuMove]}`
 
-    showResult(i, cpuMove)
+    showResult(userChoice, cpuMove)
 }
 
 function showResult(userPlay, cpuPlay) {

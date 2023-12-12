@@ -69,3 +69,19 @@ body {
 
 #stop-btn,
 #continue-btn { display: none; }
+
+
+@media screen and (max-width: 768px){
+    .timer-container{
+        width: 80%;
+        text-align: center;
+   }
+
+   .timer{
+        font-size: 3em;
+   }
+
+   .buttons button {
+        font-size: 1.1em;
+   }
+}

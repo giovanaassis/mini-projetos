@@ -87,3 +87,10 @@ main.calc {
 #buttons-container button:nth-child(16) {
     background-color: #FA9D11 !important;
 }
+
+
+@media screen and (max-width: 768px){
+    .calc {
+        width: 75%;
+    }
+}

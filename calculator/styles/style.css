@@ -90,7 +90,7 @@ main.calc {
 
 
 @media screen and (max-width: 768px){
-    .calc {
+    main.calc {
         width: 75%;
     }
 }
